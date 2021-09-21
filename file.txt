@@ -1,0 +1,6 @@
+Com base nos meus estudos, e na plataforma de estudo que uso atualmente que
+chama-se Rocketseat, decidi e consegui escrever o código de tal forma porém com 
+muito aprendizado e esforço. Além da Rocketseat, pesquisei muito no Google e no
+Pinterest para ver layouts bonitos e funcionais para a aplicação, além de tentar 
+usar as melhores práticas para desenvolver a aplicação. Espero que esteja tudo
+de acordo, dei o meu melhor.
