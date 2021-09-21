@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 30px 60px;
+
+  width: 1200px;
+
+  margin: 50px auto;
+
+}
+
+main h1 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.inputGroup {
+  display: flex;
+  height: 45px;
+  gap: 15px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+	align-items: center;
+  flex: 1;
+  gap: 5px;
+  width: 90%;
+}
+
+.inputGroup input {
+  width: 80%;
+  height: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 17px;
+  padding: 0 15px;
+}
+
+.inputGroup input:focus {
+  border-color: #8E49E8;
+}
+
+.inputGroup select {
+  width: 20%;
+  height: 100%;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  padding: 0 15px;
+  transition: all 0.3s ease;
+}
+
+.inputGroup div.actions {
+  width: 10%;
+  height: 100%;
+}
+
+.inputGroup div.actions button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  background: #7259c1;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.inputGroup div.actions button:hover{
+  opacity: 0.9;
+}
+
+main ul.todoList {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+main ul.todoList li{
+  flex: 1;
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+main ul.todoList li div.content {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 3px;
+  justify-content: space-between;
+}
+
+main ul.todoList li div.content p {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+main ul.todoList li div.content span {
+  display: inline-block;
+  min-width: 16px;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+main ul.todoList li div.content span.iniciada{
+  background: #1779ba;
+  color: #fefefe;
+}
+
+main ul.todoList li div.content span.bloqueada{
+  background: #ba173a;
+  color: #fefefe;
+}
+
+main ul.todoList li div.content span.concluida{
+  background: #17ba5b;
+  color: #fefefe;
+}
+
+main ul.todoList li div.actions {
+  display: flex;
+  gap: 5px;
+}
+
+main ul.todoList li div.actions span.icon {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  background: #f2f2f2;
+  border-radius: 3px;
+  padding: 10px 18px;
+  cursor: pointer;
+}
